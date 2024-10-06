@@ -50,6 +50,7 @@ Register and Test
     Register an account on the application.
 
 "To test the order please make sure that in the headers content type is application/json and use row like this:
+
     {
     "products": [
         { "product_id": 1, "quantity": 2 },
