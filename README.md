@@ -29,6 +29,7 @@ php artisan key:generate
 ```
 
 Set Up the Database
+
 Create a new database for the application. Update the .env file with the name of your database in the DB_DATABASE variable:
 DB_DATABASE=your_database_name
 
