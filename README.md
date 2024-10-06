@@ -33,6 +33,7 @@ Create a new database for the application. Update the .env file with the name of
 DB_DATABASE=your_database_name
 
 Run Migrations
+
 Run the migrations to set up the database schema:
 ```bash
 php artisan migrate
