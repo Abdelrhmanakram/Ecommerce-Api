@@ -10,10 +10,8 @@ class ProductController extends Controller
 {
     public function index()
     {
-        // Fetch all products from the database
         $products = Product::all();
 
-        // Return the view with the products
         return response()->json([
             'status' => 'success',
             'data' => $products
@@ -22,7 +20,6 @@ class ProductController extends Controller
 
     public function show($id)
     {
-        // Fetch the product with the given ID
         $product = Product::find($id);
 
         if (!$product) {
