@@ -11,7 +11,6 @@ class CategoryController extends Controller
 {
     public function index()
     {
-        // Fetch all categories from the database
         $categories = Category::all();
 
         return response()->json([
@@ -22,7 +21,6 @@ class CategoryController extends Controller
 
     public function show($id)
     {
-        // Fetch a specific category by ID
         $category = Category::find($id);
 
         if (!$category) {
